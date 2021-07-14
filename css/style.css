@@ -123,7 +123,55 @@ body{
 .footer-copyright p{
     font-size: 18px;
 }
+/* all achievment-extra marks */
+.all-trophy{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.trophy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 20px;
+    background-color: black;
+    padding: 15px 45px;
+    border: 2px solid tomato;
+    border-bottom-right-radius: 15px;
+}
+.trophy-icon .color-change{
+    color: gold;
+    
+}
 
+/* extra marks */
+.football-news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   border: 2px dashed pink;
+    margin:0 50px;
+}
+ h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700px;
+    margin-top: 50px;
+
+}
+.news .video video{
+    height: 170px;
+    width: 300px;
+}
+.news .description p{
+    text-align: center;
+}
 
 
 /* mobile device */
@@ -195,6 +243,20 @@ body{
     .footer-main .footer-photo img{
         width: 270px;
        }
+       /* football-news */
+       .football-news{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .all-trophy{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
 }
 
 /* tablet */
